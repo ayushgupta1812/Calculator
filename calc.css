@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+html, body{
+  height: 100%;
+  width: 100%;
+  background-image: white;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.row{
+  margin: 8px 0;
+}
+.ro{
+  margin: 0px;
+  padding: 9px 0;
+  border: 2px solid black;
+  border-radius: 3vw;
+  font-size: 20px;
+  width: 254px;
+}
+
+.centre{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+  
+  }
+  
+  .bg-grey{
+    background: rgb(100, 100, 100);
+  }
+  .mg-auto{
+    margin: auto;
+  }
+  .button{
+    padding: 20px;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 4vw;
+    cursor: pointer;
+    width: 59px;
+    font-size: 18px;
+    background-color:#fbf5fc;
+  }
+
+  .calculator{
+    position: relative;
+    height: auto;
+    width: auto;
+    padding: 18px;
+    border-radius: 10px solid black;
+    box-shadow: 0 0 30px #000;
+    background-image: linear-gradient(to bottom right, rgb(98, 141, 220),rgb(133, 40, 184));
+  }
